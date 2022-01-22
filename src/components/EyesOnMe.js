@@ -12,7 +12,7 @@ function EyesOnMe() {
     }
 
   return (
-    <button onClick={ focus? focus : blur }>Eyes on me</button>
+    <button onFocus={ focus } onBlur = { blur }>Eyes on me</button>
   );
 }
 
